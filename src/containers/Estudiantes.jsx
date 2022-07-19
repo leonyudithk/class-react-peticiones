@@ -21,7 +21,10 @@ class Estudiantes extends Component {
             modal: false
         }
     }
-
+    //ciclo de vida de los Componente de clase
+    // Nacer- vivir-Morir
+    //Montaje- Actualizacion - desmontaje
+    //componentDidMount() - componentDidUpdate()- componentWillUnmount()
     //Paso 2--- Hacer el montaje de los estados.
     componentDidMount() {
         this.peticionGet()
